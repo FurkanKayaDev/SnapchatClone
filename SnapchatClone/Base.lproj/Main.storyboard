@@ -146,22 +146,20 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dTG-h7-o31">
-                                <rect key="frame" x="154" y="408" width="85" height="37"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Eak-ds-a6Q">
+                                <rect key="frame" x="158" y="409" width="77.333333333333314" height="34.333333333333314"/>
                                 <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Logout"/>
+                                <buttonConfiguration key="configuration" style="filled" title="Logout"/>
                                 <connections>
-                                    <action selector="logoutClicked:" destination="0jx-Hb-l6C" eventType="touchUpInside" id="T3b-cM-v0I"/>
+                                    <action selector="logoutClicked:" destination="0jx-Hb-l6C" eventType="touchUpInside" id="Vnc-q0-UGJ"/>
                                 </connections>
                             </button>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="vO1-2t-I31"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="dTG-h7-o31" firstAttribute="leading" secondItem="vO1-2t-I31" secondAttribute="leading" constant="154" id="DMc-iR-KHK"/>
-                            <constraint firstItem="dTG-h7-o31" firstAttribute="centerY" secondItem="xBX-Ot-Aw9" secondAttribute="centerY" id="Jt4-3t-ATS"/>
-                            <constraint firstItem="dTG-h7-o31" firstAttribute="centerX" secondItem="xBX-Ot-Aw9" secondAttribute="centerX" id="Miq-fk-Hgi"/>
-                            <constraint firstItem="dTG-h7-o31" firstAttribute="top" secondItem="vO1-2t-I31" secondAttribute="top" constant="408" id="f7R-vX-L5B"/>
+                            <constraint firstItem="Eak-ds-a6Q" firstAttribute="centerX" secondItem="xBX-Ot-Aw9" secondAttribute="centerX" id="ILb-hY-eCy"/>
+                            <constraint firstItem="Eak-ds-a6Q" firstAttribute="centerY" secondItem="xBX-Ot-Aw9" secondAttribute="centerY" id="lz7-Ol-OfG"/>
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" title="Settings" image="s.circle.fill" catalog="system" id="LPD-sa-7se"/>

@@ -16,10 +16,11 @@ class SettingsVC: UIViewController {
     }
     
     
+   
     @IBAction func logoutClicked(_ sender: Any) {
         do {
             try Auth.auth().signOut()
-            self.performSegue(withIdentifier: "toSignInVC", sender: nil)
+            self.performSegue(withIdentifier: "toSigninVC", sender: nil)
         } catch {
             
         }
